@@ -1,7 +1,10 @@
+# Writing and Presentation Test Week 1
+
+
 ## HTML
 HTML atau singkatan dari Hyper Text Markup Language merupakan sebuah bahasa struktural yang digunakan dalam membuat website, disebut bahasa struktural karena merupakan sebuah bahasa untuk membuat struktur-struktur dalam web atau bisa disebut sebagai kerangka web, sehingga bukan dikategorikan sebagai bahasa pemrogaman karena tidak menghasilkan sebuah fungsi.
 
-## Struktur Dasar HTML
+### Struktur Dasar HTML
 <p align="center" width="100%">
     <img width="60%" src="https://www.petanikode.com/img/html/dasar/struktur-html.png">
 </p>
@@ -16,7 +19,7 @@ Sebenarnya dalam mempelajari HTML yang terpenting adalah kita harus memahami seb
 
 Struktur paling luar adalah pembuka dan penutup tag disimbolkan dengan < dan > atau sering disebut dengan angled brackets, didalamnya bisa diisikan sebuah atribut untuk memberikan sifat dari tag tersebut. Antara kurung <> </> adalah konten dari sebuah tag yang ingin kita beri, bisa berupa text, foto, maupun video, tergangtung element tag yang kita beri.
 
-## Jenis-Jenis Tag HTML
+### Jenis-Jenis Tag HTML
 Dalam HTML ada 2 jenis Tag yaitu:
   <h4>
     <ol>
@@ -25,7 +28,7 @@ Dalam HTML ada 2 jenis Tag yaitu:
       </li>
       Merupakan tag html yang hanya 1 kurung saja, contohnya:
         <p width="100%">
-            <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/8a17fc15b5350bc7baa2900669fb4cadc84f25a4/Week%201./singletag.png">
+            <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/d473b55e69f1c9db81b54bdd1484730b5c4d5c6b/Week%201./singletag.png">
         </p>
       <li>
           <h3>Double tag</h3>
@@ -65,7 +68,7 @@ Dalam HTML ada 2 jenis Tag yaitu:
 ## CSS
 CSS atau singkatan dari Cascading Style Sheets yaitu bahasa yang digunakan untuk menentukan tampilan dan format halaman website. Dengan CSS, kita bisa mengatur jenis font, warna tulisan, latar belakang halaman, dan masih banyak lagi. Dengan adanya CSS website kita akan terlihat lebih menarik, sehingga bisa juga dikatakan sebagai baju atau kosmetik yang disisi lain HTML adalah sebagai kerangkanya.
 
-## Struktur Penulisan CSS
+### Struktur Penulisan CSS
 <p align="center" width="100%">
     <img width="60%" src="https://bilabil.com/wp-content/uploads/2019/12/struktur-css.jpg">
 </p>
@@ -90,7 +93,7 @@ Dalam gambar tersebut ada sebuah selector, property, dan value, nah apakah itu?
  </h4>
 
 
-## Cara Penulisan CSS
+### Cara Penulisan CSS
 <h4>
 <ol>
   <li>
@@ -124,25 +127,19 @@ Dalam gambar tersebut ada sebuah selector, property, dan value, nah apakah itu?
 Mungkin setelah memahami struktur penulisan CSS dan cara penulisan CSS, kita masuk saja ke dalam sebuah latihan. (Disini penulis menganggap semua sudah memahami HTML)
 <ol>
     <li>Seperti biasa, siapkan Text Editor bisa menggunakan Notepad++, Atom, Sublime, ataupun Visual Studio Code sesuai yang diinginkan</li>
-    <li>Buka Text Editor dan buat sebuah file baru CSS (sebelumnya sudah exercise [HTML](https://github.com/Chopin44/Writing-and-Presentation-Test/edit/main/Week%201./ReadMe.md#html)</li> 
+    <li>Buka Text Editor dan buat sebuah file baru CSS (sebelumnya sudah exercise <a href="https://github.com/Chopin44/Writing-and-Presentation-Test/edit/main/Week%201./ReadMe.md#exercise" title="Hobbit lifestyles">HTML</a>)</li> 
      <p width="100%">
         <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./1.png">
     </p>
+    <li>Isikan beberapa sintaks berikut</li>
+    <li>Panggil CSS ke dalam file Html menggunakan tag link</li>
     <p width="100%">
         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./2.png">
     </p>
-    <li>Deklarasikan tag-tag yang penting dalam HTML</li>
+    <li>Buka file html lewat browser</li>
+    <li>Text dengan tag h1 yaitu Hello World akan berubah sesaui propertty dan value yang diberikan</li>
     <p width="100%">
         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./3.png">
-    </p>
-    <li>Kita coba beri tag H1</li>
-    <p width="100%">
-        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./4.png">
-    </p>
-    <li>Buka File tersebut via browser</li>
-    <li>Terdapat Text Hello World! di browser maka HTML berhasil dibuat</li>
-    <p width="100%">
-        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./5.png">
     </p>
 </ol>
 
