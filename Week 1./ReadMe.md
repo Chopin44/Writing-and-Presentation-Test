@@ -124,7 +124,7 @@ Dalam gambar tersebut ada sebuah selector, property, dan value, nah apakah itu?
 Mungkin setelah memahami struktur penulisan CSS dan cara penulisan CSS, kita masuk saja ke dalam sebuah latihan. (Disini penulis menganggap semua sudah memahami HTML)
 <ol>
     <li>Seperti biasa, siapkan Text Editor bisa menggunakan Notepad++, Atom, Sublime, ataupun Visual Studio Code sesuai yang diinginkan</li>
-    <li>Buka Text Editor dan buat sebuah file baru CSS (sebelumnya sudah exercise HTML)</li>
+    <li>Buka Text Editor dan buat sebuah file baru CSS (sebelumnya sudah exercise [HTML](https://github.com/Chopin44/Writing-and-Presentation-Test/edit/main/Week%201./ReadMe.md#html)</li> 
      <p width="100%">
         <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./1.png">
     </p>
