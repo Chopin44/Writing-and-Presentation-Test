@@ -129,12 +129,15 @@ Mungkin setelah memahami struktur penulisan CSS dan cara penulisan CSS, kita mas
     <li>Seperti biasa, siapkan Text Editor bisa menggunakan Notepad++, Atom, Sublime, ataupun Visual Studio Code sesuai yang diinginkan</li>
     <li>Buka Text Editor dan buat sebuah file baru CSS (sebelumnya sudah exercise <a href="https://github.com/Chopin44/Writing-and-Presentation-Test/edit/main/Week%201./ReadMe.md#exercise" title="Hobbit lifestyles">HTML</a>)</li> 
      <p width="100%">
-        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./1.png">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/f176d0e20bf0c8d884a9754c026db4105bae289c/Week%201./css-lat1.png">
     </p>
     <li>Isikan beberapa sintaks berikut</li>
+    <p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/f176d0e20bf0c8d884a9754c026db4105bae289c/Week%201./css-lat2.png">
+    </p>
     <li>Panggil CSS ke dalam file Html menggunakan tag link</li>
     <p width="100%">
-        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./2.png">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/f176d0e20bf0c8d884a9754c026db4105bae289c/Week%201./css-lat3.png">
     </p>
     <li>Buka file html lewat browser</li>
     <li>Text dengan tag h1 yaitu Hello World akan berubah sesaui propertty dan value yang diberikan</li>
