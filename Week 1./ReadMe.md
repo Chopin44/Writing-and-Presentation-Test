@@ -22,7 +22,11 @@ Dalam HTML ada 2 jenis Tag yaitu:
   <li>
   Single tag
   </li>
-  Merupakan tag html yang hanya 1 kurung saja
+  Merupakan tag html yang hanya 1 kurung saja, contohnya:
+    <p align="center" width="100%">
+        <img width="60%" src="Week 1./singletag.png">
+    </p>
+    
   <li>
   Double tag
   </li>
