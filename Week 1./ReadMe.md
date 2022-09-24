@@ -18,22 +18,24 @@ Struktur paling luar adalah pembuka dan penutup tag disimbolkan dengan < dan > a
 
 ## Jenis-Jenis Tag HTML
 Dalam HTML ada 2 jenis Tag yaitu:
-<ol>
-  <li>
-  <h3>Single tag</h3>
-  </li>
-  Merupakan tag html yang hanya 1 kurung saja, contohnya:
-    <p width="100%">
-        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/8a17fc15b5350bc7baa2900669fb4cadc84f25a4/Week%201./singletag.png">
-    </p>
-  <li>
-      <h3>Double tag</h3>
-  </li>
-    Merupakan tag pada umumnya yang memiliki pembuka dan penutup, contohnnya:
-    <p width="100%">
-        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/d473b55e69f1c9db81b54bdd1484730b5c4d5c6b/Week%201./doubletag.png">
-    </p> 
-</ol>
+  <h4>
+    <ol>
+      <li>
+      <h3>Single tag</h3>
+      </li>
+      Merupakan tag html yang hanya 1 kurung saja, contohnya:
+        <p width="100%">
+            <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/8a17fc15b5350bc7baa2900669fb4cadc84f25a4/Week%201./singletag.png">
+        </p>
+      <li>
+          <h3>Double tag</h3>
+      </li>
+        Merupakan tag pada umumnya yang memiliki pembuka dan penutup, contohnnya:
+        <p width="100%">
+            <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/d473b55e69f1c9db81b54bdd1484730b5c4d5c6b/Week%201./doubletag.png">
+        </p> 
+    </ol>
+  </h4>
 
 ## Exercise
 <ol>
@@ -70,23 +72,26 @@ CSS atau singkatan dari Cascading Style Sheets yaitu bahasa yang digunakan untuk
 <h6 align="center">gambar di atas merupakan sebuah struktur penulisan dalam membuat CSS</h6>
 
 Dalam gambar tersebut ada sebuah selector, property, dan value, nah apakah itu?
-<ol>
-  <li>
-  <h3>Selector</h3>
-    </li>
-    Merupakan sebuah sintaks yang ditulis agar element sebuah CSS dapat ditunjuk. Seperti contoh tag-tag pada HTML seperti h1, p, div, span, img, dan masih banyak lagi.
-  <li>
-      <h3>Property</h3>
-  </li>
-    Merupakan pemberian sifat pada sebuah element. Seperti contoh ingin memberi warna text dengan color: , memberi warna background dengan background-color: , dan masih banyak lagi contohnya.
-   <li>
-      <h3>Value</h3>
-  </li>
-    Merupakan isi dari sebauh property atau sifat apa yang ingin diberikan ke dalam element tertentu. Contoh, color: red, propertynya color atau warna, warna apa yang ingin kita beri? red atau merah.
-</ol>
+<h4>
+    <ol>
+      <li>
+      <h3>Selector</h3>
+        </li>
+        Merupakan sebuah sintaks yang ditulis agar element sebuah CSS dapat ditunjuk. Seperti contoh tag-tag pada HTML seperti h1, p, div, span, img, dan masih banyak lagi.
+      <li>
+          <h3>Property</h3>
+      </li>
+        Merupakan pemberian sifat pada sebuah element. Seperti contoh ingin memberi warna text dengan color: , memberi warna background dengan background-color: , dan masih banyak lagi contohnya.
+       <li>
+          <h3>Value</h3>
+      </li>
+        Merupakan isi dari sebauh property atau sifat apa yang ingin diberikan ke dalam element tertentu. Contoh, color: red, propertynya color atau warna, warna apa yang ingin kita beri? red atau merah.
+    </ol>
+ </h4>
 
 
 ## Cara Penulisan CSS
+<h4>
 <ol>
   <li>
   <h3>Inline</h3>
@@ -100,19 +105,20 @@ Dalam gambar tersebut ada sebuah selector, property, dan value, nah apakah itu?
   </li>
     Merupakan penulisan CSS dalam file HTML, dengan tag Style sebagai pembuka dan penutupnya, berikut contohnya:
     <p width="100%">
-         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/06ba36d85a39721d02b16ca7c01b3497dd98313f/Week%201./css%202.png">
+         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/0d709ab2e2c70934c59882dd84155c6c566ca6c3/Week%201./css%202.png">
     </p>
     <li>
-      <h3>Internal</h3>
+      <h3>Eksternal</h3>
   </li>
     Merupakan penulisan CSS diluar file HTML, untuk memanggilnya bisa menggunakan tag link, berikut contohnya:
     <p width="100%">
-         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/06ba36d85a39721d02b16ca7c01b3497dd98313f/Week%201./css%203.png">
+         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/0d709ab2e2c70934c59882dd84155c6c566ca6c3/Week%201./css%203.png">
     </p>
     <p width="100%">
          <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/06ba36d85a39721d02b16ca7c01b3497dd98313f/Week%201./css%204.png">
     </p> 
 </ol>
+</h4>
 
 ## Exercise
 Mungkin setelah memahami struktur penulisan CSS dan cara penulisan CSS, kita masuk saja ke dalam sebuah latihan. (Disini penulis menganggap semua sudah memahami HTML)
