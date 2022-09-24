@@ -38,10 +38,10 @@ Dalam HTML ada 2 jenis Tag yaitu:
 ## Exercise
 <ol>
     <li>Siapkan Text Editor bisa menggunakan Notepad++, Atom, Sublime, ataupun Visual Studio Code sesuai yang diinginkan</li>
-    <p width="100%">
+    <li>Buka Text Editor dan buat sebuah file baru</li>
+     <p width="100%">
         <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./1.png">
     </p>
-    <li>Buka Text Editor dan buat sebuah file baru</li>
     <p width="100%">
         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./2.png">
     </p>
@@ -62,27 +62,81 @@ Dalam HTML ada 2 jenis Tag yaitu:
 
 ## CSS
 CSS atau singkatan dari Cascading Style Sheets yaitu bahasa yang digunakan untuk menentukan tampilan dan format halaman website. Dengan CSS, kita bisa mengatur jenis font, warna tulisan, latar belakang halaman, dan masih banyak lagi. Dengan adanya CSS website kita akan terlihat lebih menarik, sehingga bisa juga dikatakan sebagai baju atau kosmetik yang disisi lain HTML adalah sebagai kerangkanya.
-## Penulisan CSS
+
+## Struktur Penulisan CSS
+<p align="center" width="100%">
+    <img width="60%" src="https://bilabil.com/wp-content/uploads/2019/12/struktur-css.jpg">
+</p>
+<h6 align="center">gambar di atas merupakan sebuah struktur penulisan dalam membuat CSS</h6>
+
+Dalam gambar tersebut ada sebuah selector, property, dan value, nah apakah itu?
+<ol>
+  <li>
+  <h3>Selector</h3>
+    </li>
+    Merupakan sebuah sintaks yang ditulis agar element sebuah CSS dapat ditunjuk. Seperti contoh tag-tag pada HTML seperti h1, p, div, span, img, dan masih banyak lagi.
+  <li>
+      <h3>Property</h3>
+  </li>
+    Merupakan pemberian sifat pada sebuah element. Seperti contoh ingin memberi warna text dengan color: , memberi warna background dengan background-color: , dan masih banyak lagi contohnya.
+   <li>
+      <h3>Value</h3>
+  </li>
+    Merupakan isi dari sebauh property atau sifat apa yang ingin diberikan ke dalam element tertentu. Contoh, color: red, propertynya color atau warna, warna apa yang ingin kita beri? red atau merah.
+</ol>
+
+
+## Cara Penulisan CSS
 <ol>
   <li>
   <h3>Inline</h3>
   </li>
   Merupakan cara penulisan CSS langsung ke dalam tag HTML, berikut contohnya:
     <p width="100%">
-        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/8a17fc15b5350bc7baa2900669fb4cadc84f25a4/Week%201./singletag.png">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/06ba36d85a39721d02b16ca7c01b3497dd98313f/Week%201./css%201.png">
     </p>
   <li>
       <h3>Internal</h3>
   </li>
     Merupakan penulisan CSS dalam file HTML, dengan tag Style sebagai pembuka dan penutupnya, berikut contohnya:
     <p width="100%">
-        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/d473b55e69f1c9db81b54bdd1484730b5c4d5c6b/Week%201./doubletag.png">
+         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/06ba36d85a39721d02b16ca7c01b3497dd98313f/Week%201./css%202.png">
     </p>
     <li>
       <h3>Internal</h3>
   </li>
     Merupakan penulisan CSS diluar file HTML, untuk memanggilnya bisa menggunakan tag link, berikut contohnya:
     <p width="100%">
-        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/d473b55e69f1c9db81b54bdd1484730b5c4d5c6b/Week%201./doubletag.png">
+         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/06ba36d85a39721d02b16ca7c01b3497dd98313f/Week%201./css%203.png">
+    </p>
+    <p width="100%">
+         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/06ba36d85a39721d02b16ca7c01b3497dd98313f/Week%201./css%204.png">
     </p> 
 </ol>
+
+## Exercise
+Mungkin setelah memahami struktur penulisan CSS dan cara penulisan CSS, kita masuk saja ke dalam sebuah latihan. (Disini penulis menganggap semua sudah memahami HTML)
+<ol>
+    <li>Seperti biasa, siapkan Text Editor bisa menggunakan Notepad++, Atom, Sublime, ataupun Visual Studio Code sesuai yang diinginkan</li>
+    <li>Buka Text Editor dan buat sebuah file baru CSS (sebelumnya sudah exercise HTML)</li>
+     <p width="100%">
+        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./1.png">
+    </p>
+    <p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./2.png">
+    </p>
+    <li>Deklarasikan tag-tag yang penting dalam HTML</li>
+    <p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./3.png">
+    </p>
+    <li>Kita coba beri tag H1</li>
+    <p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./4.png">
+    </p>
+    <li>Buka File tersebut via browser</li>
+    <li>Terdapat Text Hello World! di browser maka HTML berhasil dibuat</li>
+    <p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./5.png">
+    </p>
+</ol>
+
