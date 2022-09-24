@@ -1,5 +1,5 @@
 ## HTML
-HTML atau kepanjangan dari Hyper Text Markup Language merupakan sebuah bahasa struktural yang digunakan dalam membuat website, disebut bahasa struktural karena merupakan sebuah bahasa untuk membuat struktur-struktur dalam web atau bisa disebut sebagai kerangka web, sehingga bukan dikategorikan sebagai bahasa pemrogaman karena tidak menghasilkan sebuah fungsi.
+HTML atau singkatan dari Hyper Text Markup Language merupakan sebuah bahasa struktural yang digunakan dalam membuat website, disebut bahasa struktural karena merupakan sebuah bahasa untuk membuat struktur-struktur dalam web atau bisa disebut sebagai kerangka web, sehingga bukan dikategorikan sebagai bahasa pemrogaman karena tidak menghasilkan sebuah fungsi.
 
 ## Struktur Dasar HTML
 <p align="center" width="100%">
@@ -20,14 +20,14 @@ Struktur paling luar adalah pembuka dan penutup tag disimbolkan dengan < dan > a
 Dalam HTML ada 2 jenis Tag yaitu:
 <ol>
   <li>
-  Single tag
+  <h3>Single tag</h3>
   </li>
   Merupakan tag html yang hanya 1 kurung saja, contohnya:
     <p width="100%">
         <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/8a17fc15b5350bc7baa2900669fb4cadc84f25a4/Week%201./singletag.png">
     </p>
   <li>
-  Double tag
+      <h3>Double tag</h3>
   </li>
     Merupakan tag pada umumnya yang memiliki pembuka dan penutup, contohnnya:
     <p width="100%">
@@ -38,43 +38,51 @@ Dalam HTML ada 2 jenis Tag yaitu:
 ## Exercise
 <ol>
     <li>Siapkan Text Editor bisa menggunakan Notepad++, Atom, Sublime, ataupun Visual Studio Code sesuai yang diinginkan</li>
+    <p width="100%">
+        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./1.png">
+    </p>
     <li>Buka Text Editor dan buat sebuah file baru</li>
+    <p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./2.png">
+    </p>
     <li>Deklarasikan tag-tag yang penting dalam HTML</li>
+    <p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./3.png">
+    </p>
     <li>Kita coba beri tag H1</li>
+    <p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./4.png">
+    </p>
     <li>Buka File tersebut via browser</li>
     <li>Terdapat Text Hello World! di browser maka HTML berhasil dibuat</li>
+    <p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./5.png">
+    </p>
 </ol>
 
-
-## Building Blocks of a Web Application
-
-Ada beberapa hal yang dapat kita pertimbangkan setiap membuat sebuah aplikasi pada era modern ini yang merupakan bagian dari **building blocks**
-
-- ***User Interface***: Bagaimana setiap user akan melihat atau mengkonsumsi konten serta berinteraksi dengan aplikasi.
-Routing: Bagaimana setiap user dapat mengakses setiap halaman atau bagian dari aplikasi.
-- ***Data Fetching***: Bagaimana proses mendapatkan sebuah data.
-Rendering: Proses memilih apakah sebuah halaman dan konten menggunakan static rendering, dynamic rendering, dan sebagainya.
-- ***Integrations***: Apa third-party yang kemungkinan akan kita gunakan? Misalnya CMS, authentication, payment gateway, dsb. Lalu bagaimana proses integrasi tersebut.
-- ***Infrastructure***: Tempat men-deploy, menyimpan, dan menjalankan code yang kita buat (Serverless, CDN, Edge, dsb)
-- ***Performance***: Bagaimana meng-optimize aplikasi untuk end-users. Misalnya membuat sebuah halaman website atau data dapat diakses dengan lebih cepat.
-- ***Scalability***: Bagaimana sebuah aplikasi dapat dengan baik menangani atau beradaptasi saat sebuah tim, data, dan traffic meningkat atau bertumbuh.
-- ***Developer Experience***: Bagaimana sebuah tim dan developer dapat dengan happy dan nyaman membuat serta me-maintaince aplikasi.
-
-## React - Apa itu React
-React adalah sebuah JavaScript library untuk membuat user interface secara interaktif.
-
-Library disini maksudnya adalah React menyediakan function bawaan yang dapat kita gunakan untuk membuat sebuah UI. User interface disini maksudnya adalah beberapa elemen yang kita dan user lihat pada layar dan bagaimana mereka berinteraksi.
-
-![HTML](https://www.petanikode.com/img/html/dasar/struktur-html.png)
-
-Kekurangan dari React adalah kita perlu melakukan beberapa konfigurasi pada setiap awal membuat sebuah aplikasi dan juga melakukan konfigurasi pada beberapa fitur yang kita perlukan namun belum tersedia secara default pada React yang terkadang memerlukan banyak waktu.
-
-## Next.js - Apa itu Next.js?
-
-Next.js adalah sebuah React framework yang memberikan kita sebuah building blocks untuk membuat sebuah aplikasi website secara cepat.
-
-Framework disini maksudnya adalah Next.js yang melakukan konfigurasi yang dibutuhkan pada React dan menyediakan beberapa bagian dari building blocks yang sudah dapat langsung kita gunakan.
-
-![HTML](https://nextjs.org/static/images/learn/foundations/next-app.png)
-
-Karena berbasis React, maka kita akan tetap menggunakan React untuk membuat UI dan menggunakan Next.js untuk fitur tambahan penting yang akan sering kita butuhkan seperti routing, data fetching, dan sebagainya. Kita dapat memangkas waktu dan fokus pada delivery aplikasi yang kita buat.
+## CSS
+CSS atau singkatan dari Cascading Style Sheets yaitu bahasa yang digunakan untuk menentukan tampilan dan format halaman website. Dengan CSS, kita bisa mengatur jenis font, warna tulisan, latar belakang halaman, dan masih banyak lagi. Dengan adanya CSS website kita akan terlihat lebih menarik, sehingga bisa juga dikatakan sebagai baju atau kosmetik yang disisi lain HTML adalah sebagai kerangkanya.
+## Penulisan CSS
+<ol>
+  <li>
+  <h3>Inline</h3>
+  </li>
+  Merupakan cara penulisan CSS langsung ke dalam tag HTML, berikut contohnya:
+    <p width="100%">
+        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/8a17fc15b5350bc7baa2900669fb4cadc84f25a4/Week%201./singletag.png">
+    </p>
+  <li>
+      <h3>Internal</h3>
+  </li>
+    Merupakan penulisan CSS dalam file HTML, dengan tag Style sebagai pembuka dan penutupnya, berikut contohnya:
+    <p width="100%">
+        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/d473b55e69f1c9db81b54bdd1484730b5c4d5c6b/Week%201./doubletag.png">
+    </p>
+    <li>
+      <h3>Internal</h3>
+  </li>
+    Merupakan penulisan CSS diluar file HTML, untuk memanggilnya bisa menggunakan tag link, berikut contohnya:
+    <p width="100%">
+        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/d473b55e69f1c9db81b54bdd1484730b5c4d5c6b/Week%201./doubletag.png">
+    </p> 
+</ol>
