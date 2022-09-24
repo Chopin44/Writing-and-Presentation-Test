@@ -31,8 +31,18 @@ Dalam HTML ada 2 jenis Tag yaitu:
   </li>
     Merupakan tag pada umumnya yang memiliki pembuka dan penutup, contohnnya:
     <p width="100%">
-        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/8a17fc15b5350bc7baa2900669fb4cadc84f25a4/Week%201./singltag.png">
+        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/d473b55e69f1c9db81b54bdd1484730b5c4d5c6b/Week%201./doubletag.png">
     </p> 
+</ol>
+
+## Exercise
+<ol>
+    <li>Siapkan Text Editor bisa menggunakan Notepad++, Atom, Sublime, ataupun Visual Studio Code sesuai yang diinginkan</li>
+    <li>Buka Text Editor dan buat sebuah file baru</li>
+    <li>Deklarasikan tag-tag yang penting dalam HTML</li>
+    <li>Kita coba beri tag H1</li>
+    <li>Buka File tersebut via browser</li>
+    <li>Terdapat Text Hello World! di browser maka HTML berhasil dibuat</li>
 </ol>
 
 
