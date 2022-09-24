@@ -140,9 +140,9 @@ Mungkin setelah memahami struktur penulisan CSS dan cara penulisan CSS, kita mas
         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/f176d0e20bf0c8d884a9754c026db4105bae289c/Week%201./css-lat3.png">
     </p>
     <li>Buka file html lewat browser</li>
-    <li>Text dengan tag h1 yaitu Hello World akan berubah sesaui propertty dan value yang diberikan</li>
+    <li>Text dengan tag h1 yaitu Hello World akan berubah sesaui property dan value yang diberikan yaitu text yang diberi warna merah</li>
     <p width="100%">
-        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/154a9169831960641e292887104b1435e8cc92a6/Week%201./3.png">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/429243a5ffcbaef073d8d154a4f14d10642b66f8/Week%201./css-lat4.png">
     </p>
 </ol>
 
