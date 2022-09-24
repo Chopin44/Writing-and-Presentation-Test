@@ -14,7 +14,7 @@ Sebenarnya dalam mempelajari HTML yang terpenting adalah kita harus memahami seb
 </p>
 <h6 align="center">gambar di atas merupakan sebuah struktur Tag yang ada dalam HTML</h6>
 
-Struktur paling luar adalah pembuka dan penutup tag disimbolkan dengan < dan > atau sering disebut dengan angled brackets, didalamnya bisa diisikan sebuah atribut untuk memberikan sifat dari tag tersebut. Antara kurung <> </> adalah konten dari sebuah tag yang ingin kita beri, bisa berupa text, foto, maupun video.
+Struktur paling luar adalah pembuka dan penutup tag disimbolkan dengan < dan > atau sering disebut dengan angled brackets, didalamnya bisa diisikan sebuah atribut untuk memberikan sifat dari tag tersebut. Antara kurung <> </> adalah konten dari sebuah tag yang ingin kita beri, bisa berupa text, foto, maupun video, tergangtung element tag yang kita beri.
 
 ## Jenis-Jenis Tag HTML
 Dalam HTML ada 2 jenis Tag yaitu:
@@ -23,13 +23,16 @@ Dalam HTML ada 2 jenis Tag yaitu:
   Single tag
   </li>
   Merupakan tag html yang hanya 1 kurung saja, contohnya:
-    <p align="center" width="100%">
-        <img width="60%" src="Week 1./singletag.png">
+    <p width="100%">
+        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/8a17fc15b5350bc7baa2900669fb4cadc84f25a4/Week%201./singletag.png">
     </p>
-    
   <li>
   Double tag
   </li>
+    Merupakan tag pada umumnya yang memiliki pembuka dan penutup, contohnnya:
+    <p width="100%">
+        <img width="33%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/8a17fc15b5350bc7baa2900669fb4cadc84f25a4/Week%201./singltag.png">
+    </p> 
 </ol>
 
 
