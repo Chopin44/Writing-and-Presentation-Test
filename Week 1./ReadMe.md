@@ -650,27 +650,40 @@ Langkah-langkah yang harus dilakukan yaitu:
 ```
 git init
 ```
+![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./gitbash-1.png)
+
 6. file git berhasil dibuat di folder tersebut
 7. setting username dan email dengan perintah 
+
 ```
 git config --global user.name "Nama Anda"
 git config --global user.email "emailAnda@email.com"
 ```
+![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash2.png)
+
 8. jika sudah selesai dengan program yang dibuat dan ingin menyimpan prosesnya bisa menggunakan perintah
+
 ```
 git add .
 ```
 ```
 git commit -m "Pesan Yang ingin ditambahkan"
 ```
+![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash3.png)
+
 9. Directory sudah terlacak dan tersimpan menggunakan git
-10. jika ingin diupload ke github bisa menggunakan perintah
+
+11. jika ingin diupload ke github bisa menggunakan perintah
 ```
 git remote add origin https://github.com/Chopin44/Contoh.git
 git branch -M main
 git push -u origin main
 ```
+![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash4.png)
+
 12. Jika berhasil akan muncul dalam github kita
+
+![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash5.png)
 
 
 
