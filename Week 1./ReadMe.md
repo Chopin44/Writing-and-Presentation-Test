@@ -247,6 +247,7 @@ Berikut penjelasannya:
 | 7. | Decrement(--)  | mengurangi 1 nilai kebawah pada operand/variabel                                 |
 ### 2. Operator Perbandingan
 Secara umum digunakan untuk melakukan operasi perbandingan yang akan menghasilkan nilai berupa Boolean(TRUE dan FALSE). Tipe Data Boolean yang dihasilkan diperoleh dari hasil perbandingan 2 nilai atau 2 variabel.
+Berikut jenis-jenis operator perbandingan:
 | No | Operator                    | Deskripsi                                                                      |
 |----|-----------------------------|--------------------------------------------------------------------------------|
 | 1. | Equal(==)                   | TRUE jika kedua operand nilainya sama                                          |
@@ -258,6 +259,34 @@ Secara umum digunakan untuk melakukan operasi perbandingan yang akan menghasilka
 | 7. | Lebih Besar sama dengan(>=) | TRUE jika operand pertama nilainya lebih besar atau sama, dengan operand kedua |
 | 8. | Lebih Kecil sama dengan(>=) | TRUE jika operand pertama nilainya lebih kecil atau sama, dengan operand kedua |
 ### 3. Operator Logika
-
+Operator Logika digunakan untuk melakukan Operasi Logika, Operasi Logika juga merupakan salah satu dari beberapa operasi yang akan menghasilkan nilai dengan tipe data Boolean(TRUE dan FALSE). Sama dengan point no 2 operator ini untuk membandingkan 2 nilai.
+Berikut jenis-jenis operator logika:
+| No | Operator | Deskripsi                                                               |
+|----|----------|-------------------------------------------------------------------------|
+| 1. | AND(&&)  | TRUE jika kedua operand nilainya cocok, benar(true), misal true && true |
+| 2. | OR(\|\|) | TRUE jika salah satu dari kedua operand bernilai Benar(true).           |
+| 3. | NOT(!    | TRUE jika nilai dari kedua operand tidak cocok                          |
+### 4. Operator Penugasan(Assignment)
+Operator penugasan sebenarnya mirip dengan operator aritmetika secara fungsi, namun operator penugasan menggunakan operator = sebagai gabungan.
+Berikut jenis-jenis operator penugasan:
+| No | Operator | Deskripsi                |
+|----|----------|--------------------------|
+| 1. | =        | Assigment, memberi nilai |
+| 2. | +=       | Penjumlahan              |
+| 3. | -=       | Pengurangan              |
+| 4. | *=       | Perkalian                |
+| 5. | /=       | Pembagian                |
+| 6. | %=       | Modulus                  |
+### 5. Operator Bitwise
+Operator Bitwise digunakan secara khusus untuk melakukan proses logika, dimana nilai atau operand yang diolah adalah bilangan biner. Bilangan Biner adalah bilangan yang hanya terdiri dari 2 angka yaitu angka 0 dan 1.
+Berikut jenis-jenis operator Bitwise:
+| No | Operator | Deskripsi   |
+|----|----------|-------------|
+| 1. | &        | AND         |
+| 2. | \|       | OR          |
+| 3. | ~        | NOT         |
+| 4. | <<       | Shift Left  |
+| 5. | >>       | Shift Right |
+| 6. | ^        | XOR         |
 
 
