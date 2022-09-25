@@ -287,7 +287,90 @@ do {
 //4
 //5
 ```
+## Percabangan Javascript
+Ada 4 jenis yang umum digunakan dalam pemrogaman khususnya javascript yaitu:
 
+1. if
+2. if/else
+3. if/else/if
+4. switch/case
+
+### 1. if
+Percabangan if merupakan percabangan yang hanya memiliki satu blok pilihan saat kondisi bernilai benar.
+contoh:
+```
+let a = true
+
+if (a) {
+    console.log("ini benar");
+} // muncul ini benar
+
+let b = false
+
+if (b) {
+    console.log("ini benar");
+}// tidak muncul apa-apa karena tidak ada kondisi ketika salah
+```
+### 2. if/else
+Percabangan if/else merupakan percabangan yang memiliki dua blok pilihan saat kondisi if bernilai benar dan kondisi else bernilai salah.
+```
+let a = true
+
+if (a) {
+    console.log("ini benar");
+} // muncul ini benar
+
+let b = false
+
+if (b) {
+    console.log("ini benar");
+} else {
+    console.log("ini salah");
+}// muncul ini salah 
+```
+### 3. if/else/if
+Percabangan if/else merupakan percabangan yang memiliki lebih dari dua blok pilihan.
+contoh:
+```
+let nilai = "A"
+
+if (nilai == "A") {
+    console.log("Hebat");
+} else if(nilai == "B") {
+    console.log("Biasa");
+} else {
+    console.log("Jelek");
+}// muncul nilai A
+```
+### 4. switch/case
+Sama dengan if/else/if namun dengan struktur yang berbeda
+
+contoh:
+```
+let jawab = "1"
+
+switch(jawab){
+    case "1":
+        hadiah = "Tisu";
+        break;
+    case "2":
+        hadiah = "1 Kotak Kopi";
+        break;
+    case "3":
+        hadiah = "Sticker";
+        break;
+    case "4":
+        hadiah = "Minyak Goreng";
+        break;
+    case "5":
+        hadiah = "Uang Rp 50.000";
+        break;
+    default:
+       hadiah = "tolong isi 1-5"
+}
+console.log(hadiah);
+// muncul Tisu
+```
 
 ## Operator Javascript
 Operator merupakan karakter yang mereprentasikan sebuah operasi matematika, logika, maupun suatu proses aksi.
@@ -430,4 +513,7 @@ nama = "Andriansah"
 console.log(nama)
 // error variabel constant
 ```
+
+
+
 
