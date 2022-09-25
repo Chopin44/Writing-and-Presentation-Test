@@ -159,5 +159,17 @@ Berikut langkah menjalankannya:
 ```
 console.log("Hello World")
 ```
-5.. atau kalian bisa menuliskannya langsung ke dalam file HTML menggunakan tag script
+<p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/a19dab8a6b383a67431e514e80880c766ad1d94a/Week%201./js-1.png">
+</p>
+4. Sisipkan tag script pada file HTML sepertri berikut untuk memanggil javascript
+<p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/a19dab8a6b383a67431e514e80880c766ad1d94a/Week%201./js-2.png">
+</p>
+5. atau kalian bisa menuliskannya langsung ke dalam file HTML menggunakan tag script
+<p width="100%">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/a19dab8a6b383a67431e514e80880c766ad1d94a/Week%201./js-3.png">
+</p>
+6. Kemudian buka file HTML lewat browser, memang tidak akan menampilkan apa-apa di dalam laman, tetapi kalian bisa melihat hasilnya di dalam console, dengan meng klik kanan mouse dan inspect element, cari bagian console.
+
 
