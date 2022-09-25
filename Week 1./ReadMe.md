@@ -166,13 +166,65 @@ console.log("Hello World")
 <p width="100%">
         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/a19dab8a6b383a67431e514e80880c766ad1d94a/Week%201./js-2.png">
 </p>
-5. atau kalian bisa menuliskannya langsung ke dalam file HTML menggunakan tag script
+5. Atau kalian bisa menuliskannya langsung ke dalam file HTML menggunakan tag script
 <p width="100%">
         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/a19dab8a6b383a67431e514e80880c766ad1d94a/Week%201./js-3.png">
 </p>
 6. Kemudian buka file HTML lewat browser, memang tidak akan menampilkan apa-apa di dalam laman, tetapi kalian bisa melihat hasilnya di dalam console, dengan meng klik kanan mouse dan inspect element, cari bagian console.
 <p width="100%">
-        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/9927c1e88b199b828f6acd4dc0ff90215268b0a7/Week%201./js-4.png">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/4f5d06bc036778a9924bff70aa57535697e6cd05/Week%201./js-4.png">
 </p>
+
+## Tipe Data Javascript
+Tipe data dalam javascript ada 5, yaitu:
+- Number
+- String
+- Boolean
+- Array
+- Objects
+
+### 1. Number
+Merupakan tipe data bilangan bulat seperti 0, 1, 2, 3, 4, dst...
+Penulisannya biasanya tidak diapit apapun, contoh:
+```
+let a = 100
+```
+
+### 2. String
+Merupakan tipe data berupa kalimat atau kata, biasanya diapit oleh tanda ' ' (petik satu) atau " " (petik dua) ataupun menggunakan (``) backtick.
+contoh:
+```
+let a = 'Rodhi'
+let b = "Andriansah"
+let c = `Ganteng`
+```
+### 3. Boolean
+Merupakan tipe data berupa dua nilai, yaitu benar (True) atau salah (False). Tipe data boolean sering digunakan untuk membuat alur logika program. Struktur logika seperti if, else, while, dan do while, membutuhkan nilai boolean sebagai ‘pengontrol’ alur program.
+contoh:
+```
+let a = true
+let b = false
+```
+### 4. Array
+Merupakan tipe data berupa array yaitu tipe data yang dapat menyimpan banak data dalam satu variable.
+contoh:
+```
+const arr = ['Rodhi', "Andriansah", 20]
+```
+### 5. Objects
+Merupakan sekumpulan list dari tipe data primitif (terkadang juga tipe data reference) yang menyimpan nilai dengan konsep berpasangan name-value. Tiap item (yang lebih dikenal dengan nama variabel) disebut dengan property, dan function disebut dengan method
+contoh:
+```
+var manusia = {
+     nama : "Rodhi",
+     alamat : "Pekalongan",
+     umur : 20,
+     pekerjaan  : "Mahasiswa"
+};
+```
+
+### Operator Javascript
+
+
 
 
