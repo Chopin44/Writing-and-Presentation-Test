@@ -172,7 +172,7 @@ console.log("Hello World")
 </p>
 6. Kemudian buka file HTML lewat browser, memang tidak akan menampilkan apa-apa di dalam laman, tetapi kalian bisa melihat hasilnya di dalam console, dengan meng klik kanan mouse dan inspect element, cari bagian console.
 <p width="100%">
-        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/a19dab8a6b383a67431e514e80880c766ad1d94a/Week%201./js-4.png">
+        <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/9927c1e88b199b828f6acd4dc0ff90215268b0a7/Week%201./js-4.png">
 </p>
 
 
