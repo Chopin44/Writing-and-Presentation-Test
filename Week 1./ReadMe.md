@@ -127,7 +127,7 @@ Dalam gambar tersebut ada sebuah selector, property, dan value, nah apakah itu?
 Mungkin setelah memahami struktur penulisan CSS dan cara penulisan CSS, kita masuk saja ke dalam sebuah latihan. (Disini penulis menganggap semua sudah memahami HTML)
 <ol>
     <li>Seperti biasa, siapkan Text Editor bisa menggunakan Notepad++, Atom, Sublime, ataupun Visual Studio Code sesuai yang diinginkan</li>
-    <li>Buka Text Editor dan buat sebuah file baru CSS (sebelumnya sudah exercise <a href="https://github.com/Chopin44/Writing-and-Presentation-Test/edit/main/Week%201./ReadMe.md#exercise" title="Hobbit lifestyles">HTML</a>)</li> 
+    <li>Buka Text Editor dan buat sebuah file baru CSS (sebelumnya sudah exercise <a href="https://github.com/Chopin44/Writing-and-Presentation-Test/edit/main/Week%201./ReadMe.md#exercise">HTML</a>)</li> 
      <p width="100%">
         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/f176d0e20bf0c8d884a9754c026db4105bae289c/Week%201./css-lat1.png">
     </p>
@@ -145,4 +145,19 @@ Mungkin setelah memahami struktur penulisan CSS dan cara penulisan CSS, kita mas
         <img width="100%" src="https://github.com/Chopin44/Writing-and-Presentation-Test/blob/429243a5ffcbaef073d8d154a4f14d10642b66f8/Week%201./css-lat4.png">
     </p>
 </ol>
+
+## Javascript Dasar
+JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif. Kalau sebelumnya kita mengenal HTML dan CSS, yang merupakan kerangka dan komestik dari suatu website sekarang akan ada yang namanya JavaScript, Javascript dapat meningkatkan fungsionalitas pada halaman web. Bahkan dengan JavaScript ini kita bisa membuat aplikasi, tools, atau bahkan game pada web.
+
+JavaScript atau kita singkat menjadi JS merupakan bahasa pemrograman jenis interpreter, sehingga kita tidak memerlukan compiler untuk menjalankannya. JavaScript memiliki fitur-fitur seperti berorientasi objek, client-side, high-level programming, dan loosely typed.
+
+## Cara menjalankan Javacript
+Berikut langkah menjalankannya:
+1. Kita dapat menjalankan javascript langsung dengan menggunakan browser.
+2. Untuk menjalankan Javascript di dalam browser tentunya kita harus memiliki file [HTML](https://github.com/Chopin44/Writing-and-Presentation-Test/edit/main/Week%201./ReadMe.md#exercise) terlebih dahulu.
+3. Buatlah file baru berformat js tuliskan beberapa kode berikut:
+```
+console.log("Hello World")
+```
+5.. atau kalian bisa menuliskannya langsung ke dalam file HTML menggunakan tag script
 
