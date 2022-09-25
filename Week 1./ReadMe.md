@@ -223,8 +223,41 @@ var manusia = {
 };
 ```
 
-### Operator Javascript
+## Operator Javascript
+Operator merupakan karakter yang mereprentasikan sebuah operasi matematika, logika, maupun suatu proses aksi.
+Ada 3 jenis operator dalam javascript yaitu:
+ 1. Operator Aritmatika(Arithmetic)
+ 2. Operator Perbandingan javascript
+ 3. Operator Logika Javascript
+ 4. Operator Penugasan(Assignment)
+ 5. Operator Bitwise Javascript
+ 6. Operator Lain(Miscellaneous Operators)
 
+### 1. Operator Aritmetika
+Operator Aritmatika digunakan untuk melakukan perhitungan Matematika seperti Operasi Penjumlahan, Perkalian, Modulus, dll.
+Berikut penjelasannya:
+| No | Operator       | Deskripsi                                                                        |
+|----|----------------|----------------------------------------------------------------------------------|
+| 1. | Penjumlahan(+) | menjumlahkan 2 operand                                                           |
+| 2. | Pengurangan(-) | mengurangi suatu operand dengan operand lainnya                                  |
+| 3. | Perkalian(*)   | mengalikan suatu operand dengan operand yang lainnya                             |
+| 4. | Pembagian(/)   | operasi pembagian: suatu operand akan dibagi dengan operand lainnya              |
+| 5. | Modulus(%)     | menghasilkan sisa bagi dari hasil pembagian suatu operand dengan operand lainnya |
+| 6. | Increment(++)  | menambah 1 nilai keatas pada operand/variabel                                    |
+| 7. | Decrement(--)  | mengurangi 1 nilai kebawah pada operand/variabel                                 |
+### 2. Operator Perbandingan
+Secara umum digunakan untuk melakukan operasi perbandingan yang akan menghasilkan nilai berupa Boolean(TRUE dan FALSE). Tipe Data Boolean yang dihasilkan diperoleh dari hasil perbandingan 2 nilai atau 2 variabel.
+| No | Operator                    | Deskripsi                                                                      |
+|----|-----------------------------|--------------------------------------------------------------------------------|
+| 1. | Equal(==)                   | TRUE jika kedua operand nilainya sama                                          |
+| 2. | Not Equal(!=)               | TRUE jika kedua operand nilainya tidak sama                                    |
+| 3. | Identical(===)              | TRUE jika kedua operand nilainya sama dan dengan tipe data yang sama           |
+| 4. | Not Identical(!==)          | TRUE jika ke-2 operand nilainya tidak sama serta bertipe data berbeda          |
+| 5. | Lebih Besar(>)              | TRUE jika suatu operand nilainya lebih besar dari operand lainnya.             |
+| 6. | Lebih Kecil(<)              | TRUE jika suatu operand nilainya lebih kecil dari operand lainnya              |
+| 7. | Lebih Besar sama dengan(>=) | TRUE jika operand pertama nilainya lebih besar atau sama, dengan operand kedua |
+| 8. | Lebih Kecil sama dengan(>=) | TRUE jika operand pertama nilainya lebih kecil atau sama, dengan operand kedua |
+### 3. Operator Logika
 
 
 
