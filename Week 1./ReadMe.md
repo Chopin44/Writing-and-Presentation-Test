@@ -223,6 +223,72 @@ var manusia = {
 };
 ```
 
+## Looping atau Perulangan Javascript
+Berikut jenis-jenis perulangan dalam javascript :
+1. for
+
+contoh:
+```
+for (let index = 1; index <= 5; index++) {
+    console.log(index); 
+} // hasil
+//1
+//2
+//3
+//4
+//5
+```
+2. foreach
+
+biasanya digunakan untuk mengambil data dalam array
+
+contoh:
+```
+let a = [1,2,3,4,5]
+a.forEach(angka => {   
+    console.log(angka);
+}) // hasil
+//1
+//2
+//3
+//4
+//5
+```
+3. while
+
+contoh:
+```
+let a = 0
+while (a<5){
+    a = a+1
+    console.log(a);
+}
+//hasil
+//1
+//2
+//3
+//4
+//5
+```
+
+4. do while
+
+contoh :
+```
+let a = 0
+do {
+    a = a+1
+    console.log(a);
+} while (a<5);
+//hasil
+//1
+//2
+//3
+//4
+//5
+```
+
+
 ## Operator Javascript
 Operator merupakan karakter yang mereprentasikan sebuah operasi matematika, logika, maupun suatu proses aksi.
 Ada 3 jenis operator dalam javascript yaitu:
@@ -288,5 +354,80 @@ Berikut jenis-jenis operator Bitwise:
 | 4. | <<       | Shift Left  |
 | 5. | >>       | Shift Right |
 | 6. | ^        | XOR         |
+### 6. Operator Lainnya(Miscellaneous Operators)
+Operator yang termasuk dalam Misc Operators antara lain: Operator Ternary, Operator Typeof, dll. cukup berguna di lingkup javascript. Seperti:
+- Ternary 
+contoh:
+```
+function getNilai(isNilai) {
+    return (isNilai ? 'A' : 'B' );
+  }
+  
+  console.log(getNilai(1));
+  //keluar A karena True
 
+  console.log(getNilai());
+  //keluar B karena False or Kosong
+```
+
+**?** sama dengan If dan **:** sama dengan else
+- typeof
+
+Merupakan Operator untuk mendefinisikan suatu tipe data
+```
+let a = 10
+console.log(typeof(a))
+//keluar number
+
+let b = "ini String"
+console.log(typeof(b))
+//keluar string
+
+let c = true
+console.log(typeof(c))
+//keluar boolean
+
+```
+
+## let, var dan const
+var, let dan const merupakan sebuah keywoard untuk mendeklarasikan variabel di javascript. Berikut perbedaannya:
+- var
+
+var adalah variabel yang dapat berubah valuenya dan variabelnya dapat di dekrasikan ulang.
+
+contoh:
+```
+var nama = "Rodhi"
+var nama = "Andriansah"
+console.log(nama);
+// keluar Andriansah, value Rodhi tergantikan atau tertimpa
+
+```
+- let
+
+Sifat let sama dengan var valuenya dapat dirubah tetapi tidak bisa di dekrasikan ulang.
+
+contoh :
+```
+let nama = "Rodhi"
+let nama = "Andriansah"
+console.log(nama);
+// error nama has been declared
+```
+- const
+
+Sifanya tidak bisa dirubah valuenya dan tidak dapat juga variabelnya di deklarasikan ulang.
+
+contoh :
+```
+const nama = "Rodhi"
+const nama = "Andriansah"
+console.log(nama)
+// error variabel already declared
+
+const nama = "Rodhi"
+nama = "Andriansah"
+console.log(nama)
+// error variabel constant
+```
 
