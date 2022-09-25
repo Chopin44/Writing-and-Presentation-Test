@@ -659,7 +659,7 @@ git init
 git config --global user.name "Nama Anda"
 git config --global user.email "emailAnda@email.com"
 ```
-![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash.png)
+![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/5ca21b7e8f37a1ce40b5e6acaae915058178aa74/Week%201./gitbash-2.png)
 
 8. jika sudah selesai dengan program yang dibuat dan ingin menyimpan prosesnya bisa menggunakan perintah
 
