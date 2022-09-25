@@ -514,6 +514,63 @@ console.log(nama)
 // error variabel constant
 ```
 
+## Unix Command Line
+
+### CLI (Command Line Interface)
+Command Line Interface merupakan sebuah interface yang digunakan oleh user untuk bisa mengetikkan perintah dalam bentuk teks dan memberikan instruksi pada komputer untuk mengerjakan tugas tertentu.
+### Shell
+Shell merupakan sebuah pondasi atau interface antara perintah yang diketikkan di CLI dengan Sistem operasi, shell lah yang nantinya akan memproses semua perintah yang diketikkan untuk diteruskan ke dalam sistem operasi.
+
+Shell memiliki beberapa fungsi, di antaranya:
+- Menangani file dan direktori
+- Membuka dan menutup program
+- Mengelola proses komputer
+- Menjalankan task berulang
+
+Tipe  Shell ada banyak namun yang paling terkenal adalah dari windows dan linux yaitu
+- Windows Shell
+Windows shell secara default biasanya menggunakan CMD(Command Prompt)
+- Bash
+
+Bash sebenarnya salah satu tipe shell dalam linux, ada banyak tipe lagi seperti zsh, ksh, tcsh.
+
+Bash merupakan shell yang paling sering digunakan karena mudah dipahami dalam memgembangkan suatu program. Oleh karena itu untuk selanjutnya akan membahas lebih detail hanya pada Bash.
+
+### Bash
+
+Bash atau Bourne Again Shell adalah tipe shell yang digunakan di MacOS serta berbagai distribusi Linux, dan dikembangkan oleh Free Software Foundation. Tool ini juga bisa diinstall di Windows 10. Bash merupakan salah satu tipe shell yang bisa digunakan oleh user Linux, selain Tchs shell, Ksh shell, dan Zsh shell.
+
+Di sebagian besar distribusi Linux, Bash ada dalam menu Utilities. Di desktop Gnome, namanya adalah Terminal, sedangkan untuk KDE, namanya adalah Konsole.
+Sementara itu, di MacOS, program ini disebut Terminal.app. Untuk menjalankannya, buka Application -> Utilities -> Terminal. Atau, cukup ketikkan terminal di pencarian Spotlight.Setelah terminal terbuka, Anda bisa langsung mengetikkan perintah. Perintah biasanya terdiri dari perintah itu sendiri, argumen, dan opsi.
+
+Perintah memuat instruksi yang akan dijalankan, argumen memberitahukan tempat perintah harus dijalankan, dan opsi meminta modifikasi hasil perintah.
+Untuk menggunakan shell, kita harus tahu sintaksisnya lebih dulu. Cara ini juga dikenal sebagai shell scripting, yaitu penggunaan script di CLI untuk menjalankan task tertentu.
+
+Meskipun ada banyak perintah yang bisa digunakan dengan CLI, semua perintah tersebut umumnya terbagi ke dalam dua kategori:
+
+- Perintah untuk menangani atau mengelola proses
+- Perintah untuk menangani atau mengelola file'
+
+### Git dan Gitbash
+Git adalah salah satu software penting dalam pengembangan website. Fungsi Git adalah untuk mengatur versi dari source code program Anda dengan memberikan tanda baris dan kode mana yang ditambah atau diganti sedangkan Git Bash adalah software untuk Windows, dimana kita dapat menggunakan Git di dalam suatu CLI atau command-line interface.
+
+Seperti pada penjelasan Bash, Gitbash adalah shell yang diinstall dalam windows sehingga perintah-perintahnya akan sama. 
+Berikut langkah awal untuk mencoba gitbash:
+1. Pastikan windows anda sudah menginstallnya, petunjuk lengkap bisa cek laman [official git](https://git-scm.com/)
+2. Buka gitbash atau bisa juga dengan mengklik kiri mouse dan pilih gitbash here.
+
+![Klik gitbash here](https://myoctocat.com/assets/images/base-octocat.svg)
+
+3. Berikut tampilan awal sebuah gitbash
+4. Ketikkan perintah, untuk mengetahui versi git kita
+```
+git -v
+```
+5. git berhasil diinstall dan digunakan
+
+###
+
+
 
 
 
