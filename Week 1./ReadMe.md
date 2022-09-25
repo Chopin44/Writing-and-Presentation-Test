@@ -552,9 +552,8 @@ Meskipun ada banyak perintah yang bisa digunakan dengan CLI, semua perintah ters
 - Perintah untuk menangani atau mengelola file'
 
 ### Git dan Gitbash
-Git adalah salah satu software penting dalam pengembangan website. Fungsi Git adalah untuk mengatur versi dari source code program Anda dengan memberikan tanda baris dan kode mana yang ditambah atau diganti sedangkan Git Bash adalah software untuk Windows, dimana kita dapat menggunakan Git di dalam suatu CLI atau command-line interface.
 
-Seperti pada penjelasan Bash, Gitbash adalah shell yang diinstall dalam windows sehingga perintah-perintahnya akan sama. 
+Gitbash adalah shell yang diinstall dalam windows sehingga perintah-perintahnya akan sama. 
 Berikut langkah awal untuk mencoba gitbash:
 1. Pastikan windows anda sudah menginstallnya, petunjuk lengkap bisa cek laman [official git](https://git-scm.com/)
 2. Buka gitbash atau bisa juga dengan mengklik kiri mouse dan pilih gitbash here.
@@ -601,7 +600,7 @@ cp namadirektori                                             # Copy directori
 mv namadirektori                                             # Memindahkan directori
 ```
 
-## Deleting Directories
+### Deleting Directories
 
 ```bash
 rmdir namadirektori                        # Hapus folder
@@ -615,29 +614,66 @@ touch nama1.txt nama2.txt  # buat file ganda
 touch {nama1,nama2}.txt        # buat file ganda
 ```
 
-## Memindahkan Files
+### Memindahkan Files
 
 ```bash
 cp nama1.txt nama2.txt                                # Copy file
 mv nama1.txt nama2.txt                                # Memindahkan file
 ```
 
-## Deleting Files
+### Menghapus sebuah file
 
 ```bash
 rm nama.txt            # Hapus file
 ```
 
-## Reading Files
+### membaca atau membuka file
 
 ```bash
-cat foo.txt            # Print all contents
-less foo.txt           # Print some contents at a time (g - go to top of file, SHIFT+g, go to bottom of file, /foo to search for 'foo')
-head foo.txt           # Print top 10 lines of file
-tail foo.txt           # Print bottom 10 lines of file
-open foo.txt           # Open file in the default editor
-wc foo.txt             # List number of lines words and characters in the file
+cat foo.txt            # membuka file
+less foo.txt           # membuka file satu page penuh dengan beberapa pengaturan
+head foo.txt           # membuka 10 line dari atas sebuah file
+tail foo.txt           # membuka 10 line dari bawah sebuah file
 ```
+
+## Git Dasar
+
+GIT adalah sebuah tools bagi para programmer dan developer yang berfungsi sebagai control system untuk menjalankan proyek pengembangan software. GIT adalah singkatan dari Group Inclusive Tour. Tujuan penggunaan GIT yakni untuk mengelola versi source code program dengan menentukan baris serta kode yang akan ditambahkan atau diganti.
+
+### Implementasi Git
+Langkah-langkah yang harus dilakukan yaitu:
+1. Sudah menginstall git jika di windows namanya git bash
+2. Buat sebuah folder
+3. Masukkan beberapa file kodingan
+4. buka gitbash here 
+5. kemudian ketikkan perintah berikut
+```
+git init
+```
+6. file git berhasil dibuat di folder tersebut
+7. setting username dan email dengan perintah 
+```
+git config --global user.name "Nama Anda"
+git config --global user.email "emailAnda@email.com"
+```
+8. jika sudah selesai dengan program yang dibuat dan ingin menyimpan prosesnya bisa menggunakan perintah
+```
+git add .
+```
+```
+git commit -m "Pesan Yang ingin ditambahkan"
+```
+9. Directory sudah terlacak dan tersimpan menggunakan git
+10. jika ingin diupload ke github bisa menggunakan perintah
+```
+git remote add origin https://github.com/Chopin44/Contoh.git
+git branch -M main
+git push -u origin main
+```
+12. Jika berhasil akan muncul dalam github kita
+
+
+
 
 
 
