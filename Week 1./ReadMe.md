@@ -559,16 +559,86 @@ Berikut langkah awal untuk mencoba gitbash:
 1. Pastikan windows anda sudah menginstallnya, petunjuk lengkap bisa cek laman [official git](https://git-scm.com/)
 2. Buka gitbash atau bisa juga dengan mengklik kiri mouse dan pilih gitbash here.
 
-![Klik gitbash here](https://myoctocat.com/assets/images/base-octocat.svg)
+![Klik gitbash here](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/420f492d593ed7baf7594b90b186e01ad24183f9/Week%201./git-1.png)
 
 3. Berikut tampilan awal sebuah gitbash
+
+![tampilan awal](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/420f492d593ed7baf7594b90b186e01ad24183f9/Week%201./git-2.png)
+
 4. Ketikkan perintah, untuk mengetahui versi git kita
 ```
 git -v
 ```
+
+![cek versi](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/420f492d593ed7baf7594b90b186e01ad24183f9/Week%201./git-3.png)
+
 5. git berhasil diinstall dan digunakan
 
-###
+### Perintah-perintah dalam bash
+
+### Navigasi Directory
+
+```bash
+pwd                       # Mengetahui posisi direktori sekarang
+ls                        # isi direktori
+ls -a|--all               # isi direktori termasuk file yang di hidden
+cd                        # pindah menuju direktori home
+cd namadirektori          # pindah ke direktori yang ditulis
+cd ../                    # keluar direktori satu folder
+```
+
+### Membuat folder
+
+```bash
+mkdir namadirektori                        # buat folder
+mkdir nama1 nama2                          # buat folder ganda
+```
+
+### Memindahkan sebuah direktori
+
+```bash
+cp namadirektori                                             # Copy directori
+mv namadirektori                                             # Memindahkan directori
+```
+
+## Deleting Directories
+
+```bash
+rmdir namadirektori                        # Hapus folder
+```
+
+### Membuat files
+
+```bash
+touch nama.txt             # buat file baru
+touch nama1.txt nama2.txt  # buat file ganda 
+touch {nama1,nama2}.txt        # buat file ganda
+```
+
+## Memindahkan Files
+
+```bash
+cp nama1.txt nama2.txt                                # Copy file
+mv nama1.txt nama2.txt                                # Memindahkan file
+```
+
+## Deleting Files
+
+```bash
+rm nama.txt            # Hapus file
+```
+
+## Reading Files
+
+```bash
+cat foo.txt            # Print all contents
+less foo.txt           # Print some contents at a time (g - go to top of file, SHIFT+g, go to bottom of file, /foo to search for 'foo')
+head foo.txt           # Print top 10 lines of file
+tail foo.txt           # Print bottom 10 lines of file
+open foo.txt           # Open file in the default editor
+wc foo.txt             # List number of lines words and characters in the file
+```
+
 
 
 
