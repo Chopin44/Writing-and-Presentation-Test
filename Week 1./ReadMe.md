@@ -689,11 +689,65 @@ git remote add origin https://github.com/Chopin44/Contoh.git
 git branch -M main
 git push -u origin main
 ```
-![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash4.png)
+![git-remote](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash4.png)
 
 12. Jika berhasil akan muncul dalam github kita
 
-![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash5.png)
+![git](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash5.png)
+
+## Algoritma dan Data Struktur
+
+Algoritma adalah suatu proses atau langkah-langkah yang terstruktur atau berurutan untuk memecahkan suatu masalah.
+Seberapa penting algoritma dalam pemrogaman?
+
+Programming itu justru identik dengan memecahkan suatu permasalahan, maka dari itu algoritma merupakan pemeran utamanya
+bahasa pemrograman hanyalah pemeran pendamping
+Belajar algoritma sama aja dengan mengingat kembali alur berfikir yg terstruktur
+
+### Ciri-ciri Algoritma
+
+| Ciri          | Deskripsi                                | Contoh         |
+|---------------|------------------------------------------|----------------|
+| Input         | Memiliki 0 atau lebih inputan            | Telur + Minyak |
+| Output        | Memiliki min 1 buah output               | Telur          |
+| Definiteness  | Instruksi jelas tidak ambigu             | Digoreng       |
+| Finiteness    | Memiliki titik berhenti (stop)           | Telur Matang   |
+| Effectiveness | Sebisa mungkin tepat sasaran dan efisien |                |
+
+### Jenis Proses Algoritma
+
+| Proses     | Deskripsi                                                           | Contoh                                              |
+|------------|---------------------------------------------------------------------|-----------------------------------------------------|
+| Sequence   | Instruksi yg dijalankan secara berurutan                            | Gelas diisi dengan air, lalu air siap utk diminum   |
+| Selection  | Instruksi yg dijalankan jika memenuhi suatu kondisi                 | Jika lampu merah, saya akan berhenti                |
+| Iteration  | Instruksi yg berulang kali dijalankan selama memenuhi suatu kondisi | Selama belum sampai rumah, saya akan terus menyetir |
+| Concurrent | nstruksi yg dijalankan secara bersamaan                             | Ibu mencuci baju sambil membersihkan rumah          |
+
+### Penyajian Algoritma
+1. Deskriptif
+
+    penyajian yang dilakukan dengan bahasa sehari-hari.
+    contoh:
+    saya lapar, apa yang harus saya lakukan?
+    
+    sudah pasti yang dilakukan adalah makan, terus bagaimana prosesnya?
+    
+    saya ke dapur-ambil piring di rak-ambil nasi dan lauk pauk-kemudian makan
+    
+2. Flowchart
+
+    Flow chart atau diagram alir, penyajian algoritmanya lebih mudah dibaca karena memiliki tampilan visual. Flow chart menggunakan simbol bangun datar sebagai representasi dari proses yg dilakukan.
+    
+    ![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash4.png)
+
+3. Pseudo Code
+    Penulisan algoritma yg hampir menyerupai penulisan pada kode pemrograman disebut dengan pseudo code.
+    
+    ![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash4.png)
+
+    
+
+    
 
 
 
