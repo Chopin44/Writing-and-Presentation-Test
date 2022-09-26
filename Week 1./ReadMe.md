@@ -287,6 +287,16 @@ do {
 //4
 //5
 ```
+### Function Javascript
+
+function adalah sekumpulan kode yang digunakan untuk melakukan tugas tertentu.
+```
+function name(parameter1, parameter2, parameter3) {
+  // kode untuk dieksekusi
+}
+```
+
+
 ## Percabangan Javascript
 Ada 4 jenis yang umum digunakan dalam pemrogaman khususnya javascript yaitu:
 
