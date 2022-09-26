@@ -738,14 +738,29 @@ Belajar algoritma sama aja dengan mengingat kembali alur berfikir yg terstruktur
 
     Flow chart atau diagram alir, penyajian algoritmanya lebih mudah dibaca karena memiliki tampilan visual. Flow chart menggunakan simbol bangun datar sebagai representasi dari proses yg dilakukan.
     
-    ![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash4.png)
+    ![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/1ccaa02a8eb3cceb7168d6714c523d970fc21e0c/Week%201./flowchart.png)
 
 3. Pseudo Code
     Penulisan algoritma yg hampir menyerupai penulisan pada kode pemrograman disebut dengan pseudo code.
     
-    ![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/fc5b8f70e8d66ba2f106a37fe45118d724a36fb2/Week%201./git-bash4.png)
-
+    ![git-init](https://github.com/Chopin44/Writing-and-Presentation-Test/blob/1ccaa02a8eb3cceb7168d6714c523d970fc21e0c/Week%201./psuedocode.png)
     
+### Data Struktur
+
+Struktur Data adalah sebuah cara untuk mengatur data (organize data) dengan cara yang memungkinkannya diproses dalam waktu yang efektif.
+
+Ada beberapa perintah struktur data yang dapat digunakan untuk mengatur data yaitu:
+
+- Array
+- Linked List
+- Stack
+- Queue
+- Tree
+- Hashing
+- Graph, dan lain-lain.
+
+Lalu apa bedanya Struktur Data dan Algoritma?
+Algoritma adalah seperangkat aturan yang harus diikuti menyelesaikan suatu masalah. Sedangkan Struktur data adalah cara untuk menyusun data.
 
     
 
